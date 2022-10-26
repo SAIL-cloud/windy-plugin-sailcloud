@@ -11,9 +11,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/windycom/windy-plugins"
+        "url": "git+https://github.com/SAIL-cloud/windy-plugin-sail-cloud"
     },
-    "author": "Windyty, S.E.",
+    "author": "SAIL.cloud SAS",
     "license": "MIT",
     "dependencies": {
         "@babel/core": "^7.1.2",
