@@ -1,7 +1,7 @@
 {
-    "name": "windy-plugin-examples",
+    "name": "windy-plugin-sail-cloud",
     "version": "0.5.0",
-    "description": "Windy plugin system enables anyone, with basic knowledge of Javascript to enhance Windy with new functionality (default desc).",
+    "description": "Plugin that allows viewing boats regatta on windy's map.",
     "main": "dist/plugin.js",
     "scripts": {
         "start": "node ./compiler.js --build --watch --prompt --serve --transpile",

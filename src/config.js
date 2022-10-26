@@ -1,6 +1,6 @@
 module.exports = {
     // Display name of your plugin, as it will appear in the menu
-    displayName: 'My super plugin',
+    displayName: 'SAIL.cloud',
 
     // Place, where opening link to your plugin will appear. So far only
     // Allowed: 'contextmenu', 'menu'
@@ -8,7 +8,7 @@ module.exports = {
 
     // List of external libraries, that should be loaded before
     // your plugin is even mounted to the page
-    // dependencies: ['https://unpkg.com/d3@5.7.0/dist/d3.min.js']
+    dependencies: ['https://unpkg.com/leaflet-rotatedmarker@0.2.0/leaflet.rotatedMarker.js'],
 
     // List of classnames that will be attached to your plugin upon mounting
     // className: 'plugin-lhpane plugin-mobile-fullscreen',
