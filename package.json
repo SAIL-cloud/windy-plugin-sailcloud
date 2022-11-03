@@ -1,13 +1,16 @@
 {
-    "name": "windy-plugin-sail-cloud",
-    "version": "0.5.0",
+    "name": "windy-plugin-sailcloud-rdr2022",
+    "version": "0.0.2-beta.1",
     "description": "Plugin that allows viewing boats regatta on windy's map.",
+    "homepage": "https://sail.cloud",
     "main": "dist/plugin.js",
     "scripts": {
         "start": "node ./compiler.js --build --watch --prompt --serve --transpile",
         "start-dev": "node ./compiler.js --build --watch --serve --transpile",
+        "build": "node ./compiler.js --build --transpile",
         "prepublishOnly": "node ./test/prepublish.js",
-        "test": "node ./test/prepublish.js"
+        "test": "node ./test/prepublish.js",
+        "deploy": "yarn build && npm publish"
     },
     "repository": {
         "type": "git",

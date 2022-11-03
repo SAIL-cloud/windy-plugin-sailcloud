@@ -70,7 +70,7 @@
         };
 
         const load = () => {
-            fetchData('bfb19e1d-2e76-4c61-8d00-1bedd1ac7d4b')
+            fetchData('route-du-rhum-2022')
                 .then(boats => {
                     const fleetBounds = findFleetBounds(boats.map(boat => boat.positions).flat());
                     map.fitBounds(fleetBounds, { padding: [20, 20] });
