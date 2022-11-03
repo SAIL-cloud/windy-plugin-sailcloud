@@ -171,14 +171,5 @@
 
             hasHooks = true;
         };
-
-        this.onclose = () => {
-            if (!hasHooks) {
-                return;
-            }
-
-            remove();
-            hasHooks = false;
-        };
     </script>
 </plugin>
