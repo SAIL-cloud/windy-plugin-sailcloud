@@ -3,6 +3,8 @@
         import { map } from '@windy/map';
         import findFleetBounds from './find_fleet_bounds.mjs';
 
+        const EVENT_SLUG = 'route-du-rhum-2022';
+
         const TRAIL_COLORS = [
             '#FD6319',
             '#12939A',
@@ -70,7 +72,7 @@
         };
 
         const load = () => {
-            fetchData('route-du-rhum-2022')
+            fetchData(EVENT_SLUG)
                 .then(boats => {
                     const fleetBounds = findFleetBounds(boats.map(boat => boat.positions).flat());
                     map.fitBounds(fleetBounds, { padding: [20, 20] });
